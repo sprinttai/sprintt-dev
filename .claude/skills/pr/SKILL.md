@@ -1,9 +1,11 @@
 ---
-name: pr
-description: >
-  Create a GitHub pull request from current branch into main.
-  Use when the user says "create a PR", "open a pull request",
-  "submit for review", or "merge this".
+name: sprintt-dev:pr
+description: "Create a GitHub pull request from current branch into main. Use when the user says 'create a PR', 'open a pull request', 'submit for review', or 'merge this'."
+argument-hint: "[optional PR title]"
+license: MIT
+metadata:
+  author: sprinttai
+  version: "0.1.2"
 allowed-tools: Bash
 ---
 

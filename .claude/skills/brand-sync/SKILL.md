@@ -1,9 +1,11 @@
 ---
-name: brand-sync
-description: >
-  Scan brand assets and update brand.md with file inventory.
-  Use when the user says "sync brand assets", "update brand",
-  "I added logo files", or "scan the brand folder".
+name: sprintt-dev:brand-sync
+description: "Scan brand assets and update brand.md with file inventory. Use when the user says 'sync brand assets', 'update brand', 'I added logo files', or 'scan the brand folder'."
+argument-hint: "[optional brand folder path]"
+license: MIT
+metadata:
+  author: sprinttai
+  version: "0.1.2"
 allowed-tools: Read Write Edit Bash Glob
 ---
 

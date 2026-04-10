@@ -1,9 +1,11 @@
 ---
-name: init
-description: >
-  Scaffold a new project with full SDLC setup. Use when the user says
-  "start a new project", "scaffold a project", "create a new app",
-  "init project", or "set up a new repo".
+name: sprintt-dev:init
+description: "Scaffold a new project with full SDLC setup. Use when the user says 'start a new project', 'scaffold a project', 'create a new app', 'init project', or 'set up a new repo'."
+argument-hint: "[project name]"
+license: MIT
+metadata:
+  author: sprinttai
+  version: "0.1.2"
 allowed-tools: Read Write Edit Bash Glob Grep
 ---
 

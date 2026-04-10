@@ -1,11 +1,11 @@
 ---
-name: design-system
-description: >
-  This skill should be used when the user asks to "create a component",
-  "improve the UI", "fix the design", "make it look better", "review the layout",
-  "add a section", or needs guidance on visual design, spacing, typography,
-  color usage, accessibility, or responsive design patterns.
-version: 0.1.0
+name: sprintt-dev:design-system
+description: "Design system guidance for visual design, spacing, typography, color usage, accessibility, and responsive patterns. Use when the user asks to 'improve the UI', 'fix the design', 'make it look better', 'review the layout', or 'add a section'."
+argument-hint: "[component or design question]"
+license: MIT
+metadata:
+  author: sprinttai
+  version: "0.1.2"
 ---
 
 # Design System Knowledge

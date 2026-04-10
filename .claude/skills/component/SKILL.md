@@ -1,10 +1,11 @@
 ---
-name: component
-description: >
-  Generate a polished UI component following brand guidelines.
-  Use when the user says "create a component", "build a hero section",
-  "make a navbar", "generate a form", "add a card component",
-  or asks for any UI element.
+name: sprintt-dev:component
+description: "Generate a polished UI component following brand guidelines. Use when the user says 'create a component', 'build a hero section', 'make a navbar', 'generate a form', 'add a card component', or asks for any UI element."
+argument-hint: "[component name or description]"
+license: MIT
+metadata:
+  author: sprinttai
+  version: "0.1.2"
 allowed-tools: Read Write Edit Bash Glob
 ---
 
