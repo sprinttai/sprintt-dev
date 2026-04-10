@@ -16,15 +16,5 @@
     "git-workflow",
     "brand",
     "components"
-  ],
-  "skills": [
-    "./.claude/skills/init",
-    "./.claude/skills/push",
-    "./.claude/skills/pr",
-    "./.claude/skills/new-feature",
-    "./.claude/skills/check",
-    "./.claude/skills/component",
-    "./.claude/skills/brand-sync",
-    "./.claude/skills/design-system"
   ]
 }
