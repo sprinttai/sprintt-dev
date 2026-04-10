@@ -1,12 +1,6 @@
 ---
 name: sprintt-dev:push
-description: "Stage, commit with conventional commits, and push to current branch. Use when the user says 'push my changes', 'commit and push', 'save my work', or 'push this'."
-argument-hint: "[optional commit message]"
-license: MIT
-metadata:
-  author: sprinttai
-  version: "0.1.2"
-allowed-tools: Read Bash Grep Glob
+description: "Stage, commit with conventional commits, and push to current branch. Use when the user says push my changes, commit and push, save my work, or push this."
 ---
 
 Commit and push the current changes to the active branch. Run quality checks first.

@@ -1,12 +1,6 @@
 ---
 name: sprintt-dev:check
-description: "Run security and code quality checks on the project. Use when the user says 'run checks', 'scan for issues', 'is this secure', 'check quality', or 'audit the code'."
-argument-hint: "[optional path or scope]"
-license: MIT
-metadata:
-  author: sprinttai
-  version: "0.1.2"
-allowed-tools: Read Bash Grep Glob
+description: "Run security and code quality checks on the project. Use when the user says run checks, scan for issues, is this secure, check quality, or audit the code."
 ---
 
 Run a full security and quality scan on the project. Report findings without committing or pushing.

@@ -1,11 +1,6 @@
 ---
 name: sprintt-dev:design-system
-description: "Design system guidance for visual design, spacing, typography, color usage, accessibility, and responsive patterns. Use when the user asks to 'improve the UI', 'fix the design', 'make it look better', 'review the layout', or 'add a section'."
-argument-hint: "[component or design question]"
-license: MIT
-metadata:
-  author: sprinttai
-  version: "0.1.2"
+description: "Design system guidance for visual design, spacing, typography, color usage, accessibility, and responsive patterns. Use when the user asks to improve the UI, fix the design, make it look better, review the layout, or add a section."
 ---
 
 # Design System Knowledge
