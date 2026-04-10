@@ -1,7 +1,7 @@
 {
   "name": "sprintt-dev",
   "description": "SDLC toolkit for Sprintt projects — scaffolding, git workflow, security, QA, code review, and UI/UX design system. All free tools.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "sprinttai"
   },
