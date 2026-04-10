@@ -1,0 +1,12 @@
+{
+  "name": "sprintt-dev",
+  "version": "0.1.0",
+  "description": "SDLC toolkit for Sprintt projects — scaffolding, git workflow, security, QA, code review, and UI/UX design system. All free tools.",
+  "author": {
+    "name": "Ricardo Ramirez",
+    "email": "ricardo@sprintt.ai",
+    "url": "https://sprintt.ai"
+  },
+  "repository": "https://github.com/sprinttai/sprintt-dev",
+  "keywords": ["sdlc", "scaffolding", "security", "qa", "design-system", "git-workflow"]
+}

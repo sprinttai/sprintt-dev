@@ -1,0 +1,36 @@
+{
+  "SessionStart": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "echo '## Project Context\nRead .claude/CLAUDE.md for project setup, commands, and conventions.\nRead .claude/brand.md before any UI work.\nAvailable commands: /sprintt-dev:push, /sprintt-dev:pr, /sprintt-dev:check, /sprintt-dev:new-feature, /sprintt-dev:component, /sprintt-dev:brand-sync\nAvailable agents: @security, @qa, @reviewer, @architect, @designer'",
+          "timeout": 5
+        }
+      ]
+    }
+  ],
+  "PreToolUse": [
+    {
+      "matcher": "Bash(git commit:*)",
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "BEFORE allowing this git commit, perform these checks on the files being committed:\n\n1. SECRETS SCAN: Search staged files for hardcoded API keys (sk-, ghp_, AKIA), tokens, passwords, private keys, and connection strings. If ANY secrets are found, BLOCK the commit and list each finding with file and line number.\n\n2. COMMIT MESSAGE: Verify the commit message follows conventional commits format (type(scope): description). Valid types: feat, fix, docs, style, refactor, test, chore, perf, ci, build. If the message doesn't follow this format, BLOCK and suggest a corrected message.\n\n3. DEBUG CODE: Check for console.log, console.debug, print() debug statements in staged files. WARN but don't block.\n\nIf secrets are found, output: {\"decision\": \"block\", \"reason\": \"[details]\"}\nIf commit message is wrong, output: {\"decision\": \"block\", \"reason\": \"[details]\"}\nOtherwise, output: {\"decision\": \"approve\"}",
+          "timeout": 30
+        }
+      ]
+    },
+    {
+      "matcher": "Bash(git push:*)",
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "BEFORE allowing this git push, perform a thorough review:\n\n1. SECRETS: Re-scan all files in the diff against main for hardcoded secrets. BLOCK if found.\n\n2. BRANCH CHECK: If pushing directly to main, WARN the user and ask for confirmation. Feature branches should go through PRs.\n\n3. UNPUSHED STATE: Run `git status` — warn if there are uncommitted changes that won't be included.\n\n4. CODE REVIEW: Briefly review the diff (git diff main...HEAD) for obvious issues — unhandled errors, TODO/FIXME comments, large files, commented-out code blocks. WARN about issues but don't block.\n\nIf secrets are found, output: {\"decision\": \"block\", \"reason\": \"[details]\"}\nIf pushing to main without PR, output: {\"decision\": \"ask_user\", \"reason\": \"You're pushing directly to main. Consider using a feature branch + PR instead. Proceed anyway?\"}\nOtherwise, output: {\"decision\": \"approve\"}",
+          "timeout": 30
+        }
+      ]
+    }
+  ]
+}
