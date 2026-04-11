@@ -1,7 +1,9 @@
 ---
 name: push
+user-invocable: true
 description: "Stage, commit with conventional commits, and push to current branch. Use when the user says push my changes, commit and push, save my work, or push this."
 ---
+
 
 Commit and push the current changes to the active branch. Run quality checks first.
 

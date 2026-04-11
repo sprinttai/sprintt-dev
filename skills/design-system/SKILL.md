@@ -1,7 +1,9 @@
 ---
 name: design-system
+user-invocable: true
 description: "Design system guidance for visual design, spacing, typography, color usage, accessibility, and responsive patterns. Use when the user asks to improve the UI, fix the design, make it look better, review the layout, or add a section."
 ---
+
 
 # Design System Knowledge
 

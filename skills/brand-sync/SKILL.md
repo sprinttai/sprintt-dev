@@ -1,7 +1,9 @@
 ---
 name: brand-sync
+user-invocable: true
 description: "Scan brand assets and update brand.md with file inventory. Use when the user says sync brand assets, update brand, I added logo files, or scan the brand folder."
 ---
+
 
 Scan `/public/brand/` and update `.claude/brand.md` with an accurate inventory of all brand assets.
 

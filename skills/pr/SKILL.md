@@ -1,7 +1,9 @@
 ---
 name: pr
+user-invocable: true
 description: "Create a GitHub pull request from current branch into main. Use when the user says create a PR, open a pull request, submit for review, or merge this."
 ---
+
 
 Create a pull request from the current branch into main.
 

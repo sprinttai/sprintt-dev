@@ -1,7 +1,9 @@
 ---
 name: new-feature
+user-invocable: true
 description: "Create a feature branch from latest main. Use when the user says new feature, create a branch, start working on a feature, or new branch."
 ---
+
 
 Create a new feature branch and switch to it.
 

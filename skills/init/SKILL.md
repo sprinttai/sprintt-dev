@@ -1,7 +1,9 @@
 ---
 name: init
+user-invocable: true
 description: "Scaffold a new project with full SDLC setup. Use when the user says start a new project, scaffold a project, create a new app, init project, or set up a new repo."
 ---
+
 
 Scaffold a new project named `$ARGUMENTS`. Walk through setup interactively.
 

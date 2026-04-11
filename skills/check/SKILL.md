@@ -1,7 +1,9 @@
 ---
 name: check
+user-invocable: true
 description: "Run security and code quality checks on the project. Use when the user says run checks, scan for issues, is this secure, check quality, or audit the code."
 ---
+
 
 Run a full security and quality scan on the project. Report findings without committing or pushing.
 
