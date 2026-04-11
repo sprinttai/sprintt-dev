@@ -1,5 +1,5 @@
 ---
-name: sprintt-dev:component
+name: component
 description: "Generate a polished UI component following brand guidelines. Use when the user says create a component, build a hero section, make a navbar, generate a form, add a card component, or asks for any UI element."
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: sprintt-dev:new-feature
+name: new-feature
 description: "Create a feature branch from latest main. Use when the user says new feature, create a branch, start working on a feature, or new branch."
 ---
 

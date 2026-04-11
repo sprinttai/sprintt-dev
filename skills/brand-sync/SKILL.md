@@ -1,5 +1,5 @@
 ---
-name: sprintt-dev:brand-sync
+name: brand-sync
 description: "Scan brand assets and update brand.md with file inventory. Use when the user says sync brand assets, update brand, I added logo files, or scan the brand folder."
 ---
 

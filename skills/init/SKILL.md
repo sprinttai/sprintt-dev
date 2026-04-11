@@ -1,5 +1,5 @@
 ---
-name: sprintt-dev:init
+name: init
 description: "Scaffold a new project with full SDLC setup. Use when the user says start a new project, scaffold a project, create a new app, init project, or set up a new repo."
 ---
 

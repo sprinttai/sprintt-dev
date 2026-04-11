@@ -1,5 +1,5 @@
 ---
-name: sprintt-dev:check
+name: check
 description: "Run security and code quality checks on the project. Use when the user says run checks, scan for issues, is this secure, check quality, or audit the code."
 ---
 

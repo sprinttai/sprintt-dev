@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "SDLC toolkit — scaffolding, git workflow, security scanning, QA, code review, and UI/UX design system with 5 agents and 8 skills",
-    "version": "0.1.3"
+    "version": "0.1.4"
   },
   "plugins": [
     {
       "name": "sprintt-dev",
       "source": "./",
       "description": "Complete SDLC toolkit for Sprintt projects. Scaffolding, conventional commits, PR creation, security scanning, QA checks, code review, component generation, and brand identity management. Includes agents: @security, @qa, @reviewer, @architect, @designer.",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": {
         "name": "sprinttai"
       },
